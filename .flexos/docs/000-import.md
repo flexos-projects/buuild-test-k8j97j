@@ -7,6 +7,9 @@ status: draft
 sequence: 0
 tags: [origin, provenance]
 createdAt: "{{created_at}}"
+relatesTo:
+  - "docs/001-vision.md"
+  - "design/002-patterns-base.md"
 ---
 
 <flex_block type="instructions">
@@ -46,3 +49,23 @@ If this project builds on previous work, link to the sources:
 - **Parent project:** (if forked or imported from another FlexOS project)
 - **External sources:** (GitHub repos, websites, documents that informed this)
 - **AI models used:** (which models generated the initial content)
+
+<flex_block type="prototypes">
+[
+  { "page": "home", "url": "" }
+]
+</flex_block>
+
+<flex_block type="flow">
+[
+  { "step": 1, "label": "Step 1", "description": "Description" }
+]
+</flex_block>
+
+<flex_block type="tokens">
+{
+  "colors": {},
+  "spacing": {},
+  "typography": {}
+}
+</flex_block>
